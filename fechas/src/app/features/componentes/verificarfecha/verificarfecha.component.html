@@ -1,0 +1,16 @@
+<div class="dialog-header">
+  <h2 mat-dialog-title class="dialog-title">Análisis de fechas</h2>
+</div>
+<mat-dialog-content class="mat-typography">
+  <div class="form-container">
+    <label for="fecha" class="input-label">Fecha: {{ fechaEntrada }}</label>
+    <mat-form-field appearance="outline">
+    <input matInput id="fecha" [(ngModel)]="fechaEntrada" class="input-field">
+      
+    </mat-form-field>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end" class="dialog-actions">
+  <button mat-button mat-dialog-close class="cancel-button">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="aceptar()" class="accept-button">Aceptar</button>
+</mat-dialog-actions>

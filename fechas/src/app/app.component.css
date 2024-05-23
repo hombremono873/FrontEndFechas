@@ -1,0 +1,15 @@
+.centrado{
+    text-align: center; /* Centrar horizontalmente */
+    display: flex; /* Utilizamos flexbox para centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente con flexbox */
+    width: 100%; /* Ancho completo */
+}
+/* Estilos para la barra de herramientas */
+.barra-negra {
+    background-color: #110531; /* Color de fondo negro */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 10px; /* Separación por debajo */
+  }
+  
+  

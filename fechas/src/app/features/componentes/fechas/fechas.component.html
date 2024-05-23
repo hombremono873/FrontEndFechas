@@ -1,0 +1,18 @@
+<mat-toolbar class="barra-verde">
+    Fechas festivas de Colombia
+</mat-toolbar>
+<div>
+    <div class="button-container">
+        <button mat-stroked-button class="mat-elegant-button white-text-button" (click)="abrirModalVerificarFecha()">VerificarFecha</button>
+        <label for="fecha" class="input-label" style="color: black;"> Fecha: {{ fechaverificar }}</label>
+    </div>
+    <div class="button-container">
+        <button mat-raised-button color="primary" class="custom-button" (click)="agregar()">Agregar</button>
+        <button mat-raised-button color="accent" class="custom-button" (click)="modificar()">Modificar</button>
+        <button mat-raised-button color="warn" class="custom-button" (click)="verificarEliminar()">Eliminar</button>
+    </div>
+</div>
+<ngx-datatable class="dark" [rows]="fechas" [columns]="columnas" [rowHeight]="'auto'"
+    [columnMode]="modoColumna.force" [selectionType]="tipofecha.single" [rowHeight]="50" [footerHeight]="50"
+    [limit]="10">
+</ngx-datatable>

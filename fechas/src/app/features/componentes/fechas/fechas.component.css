@@ -1,0 +1,43 @@
+
+.button-container {
+  border: 1px solid #ccc; /* Borde visible */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Espacio interno */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+.mat-elegant-button {
+  background-color: #607d8b; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px 20px; 
+  margin: 10px; 
+  border-radius: 5px; 
+  border: none; 
+}
+
+/* Estilos personalizados para todos los botones */
+.custom-button {
+  margin: 10px; /* Margen alrededor del botón para agregar separación */
+}
+
+.elegant-label {
+  font-family: Arial, sans-serif; /* Tipografía elegante */
+  font-size: 16px; /* Tamaño de fuente */
+  color: #333; /* Color del texto */
+  margin: 10px; /* Margen alrededor del label para agregar separación */
+}
+
+.barra-verde {
+  width: 100%; /* Ancho completo */
+  padding: 10px 20px; /* Padding para agregar separación interna */
+  background-color: #0f0638; /* Color de fondo */
+  color: white; /* Color del texto */
+  font-size: 20px; /* Tamaño de fuente */
+}
+.button-container:first-child {
+  margin-top: 20px; /* Margen superior */
+}
+
+.white-text-button {
+  color: white; /* Color del texto blanco */
+}

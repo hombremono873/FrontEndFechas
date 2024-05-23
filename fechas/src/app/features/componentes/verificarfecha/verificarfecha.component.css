@@ -1,0 +1,29 @@
+/* Estilos para la barra de cabecera */
+.dialog-header {
+  background: linear-gradient(to bottom, #000000, #1e88e5); 
+  padding: 5px 20px; 
+}
+
+.mat-dialog-title {
+  margin: 0; 
+  line-height: 1; 
+}
+
+/* Estilos para el contenido del formulario */
+.form-container {
+  padding: 20px; 
+}
+
+/* Estilos para los botones */
+.dialog-actions {
+  padding: 20px; 
+  justify-content: flex-end; 
+}
+
+.cancel-button {
+  color: #777; 
+}
+
+.accept-button {
+  margin-left: 10px; 
+}
